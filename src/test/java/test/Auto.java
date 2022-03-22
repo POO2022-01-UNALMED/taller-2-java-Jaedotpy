@@ -24,9 +24,9 @@ public class Auto {
 			else if (a != i.registro){
 				return ("Las piezas no son originales");
 			}
-			if (a == motor.registro && motor.registro == registro) {
+		}
+		if (a == motor.registro && motor.registro == registro) {
 				return("Auto original");
-			}
 		}
 	}
 }
