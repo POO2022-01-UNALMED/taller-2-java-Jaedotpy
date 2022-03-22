@@ -9,7 +9,7 @@ public class Auto {
 	
 	int cantidadAsientos() {
 		int cantidad = 0;
-		for(int i = 0; i<= asientos.length; i++) {
+		for(int i = 0; i < asientos.length; i++) {
 			if (asientos[i] != null) {
 				cantidad = cantidad + 1;
 			}
@@ -19,7 +19,7 @@ public class Auto {
 	
 	String verificarIntegridad() {
 		int a = 0;
-		for(int i = 0; i<= asientos.length; i++) {
+		for(int i = 0; i < asientos.length; i++) {
 			if(asientos[i] != null) {
 				if(a == 0) {
 					a = asientos[i].registro;
